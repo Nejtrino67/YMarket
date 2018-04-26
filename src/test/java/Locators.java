@@ -1,11 +1,16 @@
 import org.openqa.selenium.By;
 
 public class Locators {
-	public static By findField = By.xpath("//input[@id='text']");
-	public static By findButton = By.xpath("//button[@class=\"button suggest2-form__button button_theme_websearch button_size_ws-head i-bem button_js_inited\"]");
-	public static By url = By.xpath("(//b[contains(text(),\"apple.com\")])[1]");
-	public static By urlAccessories = By.xpath("//a[text()='Аксессуары']");
-	public static By buyWatch = By.xpath("//span[text()='Watch']");
+	public static By findField = By.xpath("//input[@id='header-search']");
+	public static By findButton = By.xpath("//button[@role='button']");
+	public static By item = By.xpath("//a[text()='Пылесос Dyson Cinetic Big Ball Parquet']");
+	public static By bitTechnick =By.xpath("//li[@data-department='Бытовая техника']");
+	public static By technick = By.xpath("//a[contains(@class, 'link topmenu__subitem topmenu__subitem_nid_54470')]");
+	public static By accessories = By.xpath("//a[text()='Аксессуары для пылесосов']");
+	public static By nozzle = By.xpath("//a[text()='Насадка для Пылесосов Lumme Lu-3221']");
+	public static By nozzleIsExist = By.xpath("//strong[text()='Насадка для Пылесосов Lumme Lu-3221']");
+
+
 
 
 

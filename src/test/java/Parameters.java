@@ -1,6 +1,6 @@
 public class Parameters {
 
-	public static String baseUrl = "https://yandex.ru/";
-	public static String searchIphone = "Iphone x";
+	public static String baseUrl = "https://market.yandex.ru/";
+	public static String searchDyson = "Пылесос Dyson";
 
 }
